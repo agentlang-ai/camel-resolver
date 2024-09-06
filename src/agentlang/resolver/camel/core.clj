@@ -1,12 +1,12 @@
-(ns fractl.resolver.camel.core
+(ns agentlang.resolver.camel.core
   (:require [clojure.string :as s]
             [clojure.core.async :as async]
-            [fractl.lang :as ln]
-            [fractl.component :as cn]
-            [fractl.util :as u]
-            [fractl.util.logger :as log]
-            [fractl.evaluator :as ev]
-            [fractl.lang.internal :as li])
+            [agentlang.lang :as ln]
+            [agentlang.component :as cn]
+            [agentlang.util :as u]
+            [agentlang.util.logger :as log]
+            [agentlang.evaluator :as ev]
+            [agentlang.lang.internal :as li])
   (:import [java.util Map HashMap]
            [org.apache.camel CamelContext Component
             ProducerTemplate Processor Exchange Message]

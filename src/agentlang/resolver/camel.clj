@@ -1,13 +1,13 @@
-(ns fractl.resolver.camel
+(ns agentlang.resolver.camel
   (:require [clojure.string :as s]
-            [fractl.lang :as ln]
-            [fractl.component :as cn]
-            [fractl.util :as u]
-            [fractl.util.logger :as log]
-            [fractl.resolver.core :as r]
-            [fractl.resolver.registry :as rg]
-            [fractl.lang.internal :as li]
-            [fractl.resolver.camel.core :as camel]))
+            [agentlang.lang :as ln]
+            [agentlang.component :as cn]
+            [agentlang.util :as u]
+            [agentlang.util.logger :as log]
+            [agentlang.resolver.core :as r]
+            [agentlang.resolver.registry :as rg]
+            [agentlang.lang.internal :as li]
+            [agentlang.resolver.camel.core :as camel]))
 
 (ln/component :Camel)
 (ln/record
