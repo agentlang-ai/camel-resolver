@@ -4,3 +4,5 @@ target/
 example/camel/logs/
 example/camel/resources/
 example/camel/target/
+.clj-kondo/
+.lsp/
